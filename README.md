@@ -50,6 +50,8 @@ My current workflow is:
   },
 }
 </script>
+<!-- The kernel needs specifiying too -->
+ <script>kernelName = 'python3'</script>
 <!--
     <script type="text/x-thebe-config">
     {
