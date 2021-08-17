@@ -35,10 +35,12 @@ My current workflow is:
 
 - rewrite Thebe config in HMTL files:
 
+(The original thebe local demo suggests `bootstrap: true` but things seem to have moved on and `requestKernel: true` now seems to be the way to do it.)
+
 ```html
 <script type="text/x-thebe-config">
 {
-  bootstrap: true,
+  requestKernel: true,
   kernelOptions: {
     name: "python3",
     serverSettings: {
