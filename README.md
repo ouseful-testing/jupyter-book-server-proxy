@@ -4,6 +4,9 @@ Tinkering with proxying Jupyter Book using [`jupyter-serverproxy`](https://jupyt
 
 This template repo provides a simple `jupyter-serverproxy` around a web server that will serve files placed in `jupyter_book_server_proxy/static`.
 
+
+String'n'glue hacky workflow here: https://gist.github.com/psychemedia/09945691d3a6881a95dbb72366195b45
+
 ## Usage
 
 Create your own repo from this template repo, clone it and then:
